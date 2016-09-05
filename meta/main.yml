@@ -28,21 +28,3 @@ officel.etckeeper
 officel.anyenv
 ]
 
-
-Example Playbook
-----------------
-
-    - hosts: all
-      become: true
-      roles:
-         - officel.initialize
-
-License
--------
-
-MIT / BSD
-
-Author Information
-------------------
-
-This role was created by raki.
