@@ -13,6 +13,7 @@ Requirements
 ------------
 
 none. But there is a dependency relationship role.
+set git config user.name & user.email for etckeeper if you use CentOS 7.... (see: tests/Dockerfile.centos-7)
 
 Role Variables
 --------------
