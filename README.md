@@ -4,12 +4,15 @@ Ansible Role: Initialize CentOS by officel roles
 [![Build Status](https://travis-ci.org/officel/ansible-role-initialize.svg?branch=master)](https://travis-ci.org/officel/ansible-role-initialize)
 [![Ansible Role](https://img.shields.io/badge/galaxy-officel.initialize-blue.svg?maxAge=2592000)](https://galaxy.ansible.com/officel/initialize/)
 
-install yum repository(s).
+Initialize CentOS by officel roles.
+maybe only
+
+	ansible-galaxy install officel.initialize
 
 Requirements
 ------------
 
-none.
+none. But there is a dependency relationship role.
 
 Role Variables
 --------------
