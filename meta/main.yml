@@ -16,15 +16,5 @@ galaxy_info:
     - package
     - yum
 
-dependencies: [
-officel.selinux
-officel.timezone
-officel.ulimit
-officel.yum-repos
-officel.yum-default
-officel.sysctl-conf
-officel.service-stop
-officel.etckeeper
-officel.anyenv
-]
+dependencies: [ officel.selinux, officel.timezone, officel.ulimit, officel.yum-repos, officel.yum-default, officel.sysctl-conf, officel.service-stop, officel.etckeeper, officel.anyenv ]
 
