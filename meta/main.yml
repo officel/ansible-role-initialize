@@ -1,0 +1,48 @@
+galaxy_info:
+  author: raki
+  description: "Initialize CentOS by officel roles"
+  company: "Office L"
+  license: "license (BSD, MIT)"
+  min_ansible_version: 1.8
+  platforms:
+    - name: EL
+      versions:
+        - 6
+        - 7
+  galaxy_tags: 
+    - centos
+    - system
+    - initial
+    - package
+    - yum
+
+dependencies: [
+officel.selinux
+officel.timezone
+officel.ulimit
+officel.yum-repos
+officel.yum-default
+officel.sysctl-conf
+officel.service-stop
+officel.etckeeper
+officel.anyenv
+]
+
+
+Example Playbook
+----------------
+
+    - hosts: all
+      become: true
+      roles:
+         - officel.initialize
+
+License
+-------
+
+MIT / BSD
+
+Author Information
+------------------
+
+This role was created by raki.

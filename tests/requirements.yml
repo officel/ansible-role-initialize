@@ -1,0 +1,11 @@
+---
+
+- officel.selinux
+- officel.timezone
+- officel.ulimit
+- officel.yum-repos
+- officel.yum-default
+- officel.sysctl-conf
+- officel.service-stop
+- officel.etckeeper
+- officel.anyenv
